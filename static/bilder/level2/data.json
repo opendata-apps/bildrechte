@@ -1,0 +1,380 @@
+[
+    {
+        "type":"radio",
+        "image":"level2-1.jpg",
+        "alt":"Junge und Mädchen beim Spielen",
+        "source": "https://www.flickr.com/photos/zhrefch/6976415275/",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da die Personen im Vordergrund lediglich „Beiwerk“ sind",
+            "1":"Ja, da es sich um ein öffentliches Gebäude handelt.",
+            "2":"Nein, da es das Persönlichkeitsrechts der abgebildeten Personen verletzen würde."
+        },
+        "given_answer":" ",
+        "correct_answer":"Ja, da die Personen im Vordergrund lediglich „Beiwerk“ sind",
+        "solution":"Die Personen sind im Vordergrund lediglich „Beiwerk“."
+    },
+    
+    {
+        "type":"radio",
+        "image":"level2-2.jpg",
+        "alt":"US-Präsident Donald Trump",
+        "source": "https://www.flickr.com/photos/28698046@N08/20446323272/",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da das Fahrzeug aus einer öffentlichen Perspektive fotografiert wird.",
+            "1":"Ja, da keine Personen im Auto sitzen, deren Persönlichkeitsrechte verletzt werden könnten.",
+            "2":"Nein, da das Kennzeichen des Autos zu erkennen ist und dieses zu den personenbezogenen Daten gehört."
+        },
+        "given_answer":"",
+        "correct_answer":"Nein, da das Kennzeichen des Autos zu erkennen ist und dieses zu den personenbezogenen Daten gehört.",
+        "solution":"Das Kennzeichen des Autos ist zu erkennen und dieses gehört zu den personenbezogenen Daten."
+    },
+    {
+        "type":"radio",
+        "image":"level2-3.jpg",
+        "alt":"Reichstag",
+        "source": "https://www.flickr.com/photos/96482489@N06/17853713990/",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da Angela Merkel eine Person des öffentlichen Interesses ist.",
+            "1":"Nein, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrechts von Angela Merkel verletzt werden würde.",
+            "2":"Nein, da es eine Hausordnung zu beachten gibt."
+        },
+        "given_answer":"",
+        "correct_answer":"Ja, da Angela Merkel eine Person des öffentlichen Interesses ist.",
+        "solution":"Angela Merkel ist eine Person des öffentlichen Interesses."
+    },
+    {
+        "type":"radio",
+        "image":"level2-4.jpg",
+        "alt":"Sportwagen mit sichtbaren Kennzeichen",
+        "source": "https://cdn.pixabay.com/photo/2015/06/05/15/02/audi-798530_1280.jpg",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da das Motiv aus der öffentlichten Perspektive aufgenommen wird.",
+            "1":"Ja, da man Kinder unter 18 Jahren nicht um Erlaubnis fragen braucht.",
+            "2":"Nein, da Kinder unter 18 Jahren nur mit der Einwilligung der Eltern fotografiert werden dürfen."
+        },
+        "given_answer":"",
+        "correct_answer":"Nein, da Kinder unter 18 Jahren nur mit der Einwilligung der Eltern fotografiert werden dürfen.",
+        "solution":"Kinder unter 18 Jahren dürfen nur mit der Einwilligung der Eltern fotografiert werden."
+    },
+    {
+        "type":"radio",
+        "image":"level2-5.jpg",
+        "alt":"Rockkonzert",
+        "source": "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da die Frau aus einer öffentlichen Perspektive fotografiert wird.",
+            "1":"Nein, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrechts der Frau verletzt werden würde.",
+            "2":"Nein, da es eine Hausordnung zu beachten gibt."
+        },
+        "given_answer":"",
+        "correct_answer":"Nein, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrechts der Frau verletzt werden würde.",
+        "solution":"Das Gesicht ist eindeutig zu erkennen und somit würde  das Persönlichkeitsrechts der Frau verletzt werden."
+    },
+    {
+        "type":"radio",
+        "image":"level2-6.jpg",
+        "alt":"Reichstag mit Personen im Vordergrund",
+        "source": "https://www.flickr.com/photos/fotoinsight/17570540423/",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da niemand das Recht am Bild von eigenen Sachen hat und auf Tiere die für Sachen geltenden Vorschriften angewendet werden.",
+            "1":"Nein, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrechts der Katze verletzt werden würde.",
+            "2":"Nein, da es sich um ein privates Haustier handelt."
+        },
+        "given_answer":"",
+        "correct_answer":"Ja, da niemand das Recht am Bild von eigenen Sachen hat und auf Tiere die für Sachen geltenden Vorschriften angewendet werden.",
+        "solution":"Niemand hat das Recht am Bild von eigenen Sachen und auf Tiere werden die für Sachen geltenden Vorschriften angewendet."
+    },
+    {
+        "type":"radio",
+        "image":"level2-7.jpg",
+        "alt":"lesende Frau mit Buch von vorne",
+        "source": "https://www.flickr.com/photos/zhrefch/6830298356/in/photostream/",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da niemand das Recht am Bild von eigenen Sachen hat und auf Tiere die für Sachen geltenden Vorschriften angewendet werden.",
+            "1":"Ja, da man ein Tier nicht um Erlaubnis fragen kann.",
+            "2":"Nein, da es im Zoo eine Hausordnung zu beachten gibt."
+        },
+        "given_answer":"",
+        "correct_answer":"Nein, da es im Zoo eine Hausordnung zu beachten gibt.",
+        "solution":"Es gibt im Zoo eine Hausordnung zu beachten."
+    },
+    {
+        "type":"radio",
+        "image":"level2-8.jpg",
+        "alt":"Hund",
+        "source": "https://cdn.pixabay.com/photo/2018/01/09/11/04/dog-3071334_960_720.jpg",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, das Haus aus der öffentlichen Perspektive aufgenommen wird.",
+            "1":"Nein, da es sich um ein privates Grundstück handelt.",
+            "2":"Nein, da es eine Hausordnung zu beachten gibt."
+	    
+        },
+        "given_answer":"",
+        "correct_answer":"Ja, das Haus aus der öffentlichen Perspektive aufgenommen wird.",
+        "solution":"Das Haus wird aus der öffentlichen Perspektive aufgenommen"
+    },
+    {
+        "type":"radio",
+        "image":"level2-9.jpg",
+        "alt":"Rückenansicht Mädchen im Wald",
+        "source":"Quellangabe/Link",
+        "last_visited": "2019-01-21",
+        "questions":"Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da das Grundstück aus der öffentlichen Perspektive aufgenommen wird.",
+            "1":"Nein, da es sich um ein privates Grundstück handelt.",
+            "2":"Nein, da es eine Hausordnung zu beachten gibt."
+        },
+        "given_answer":"",
+        "correct_answer":"Nein, da es sich um ein privates Grundstück handelt.",
+        "solution":"Es handelt sich um ein privates Grundstück."
+    },
+    {
+        "type":"radio",
+        "image":"level2-10.jpg",
+        "alt":"Soldaten in Kaserne",
+        "source": "https://cdn.pixabay.com/photo/2013/02/14/05/02/queensland-81537_1280.jpg",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da das Motiv aus der öffentlichen Perspektive fotografiert wird.",
+            "1":"Ja, da niemand das Recht am Bild von eigenen Sachen hat.",
+            "2":"Nein, da es eine Hausordnung zu beachten gibt."
+        },
+        "given_answer":"",
+        "correct_answer":"Nein, da es eine Hausordnung zu beachten gibt.",
+        "solution":"Es gibt eine Hausordnung zu beachten"
+	
+    },
+    {
+        "type":"radio",
+        "image":"level2-11.jpg",
+        "alt":"Eingang S+U-Bahnhof Potsdamer Platz",
+        "source": "https://images.pexels.com/photos/1440489/pexels-photo-1440489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da die Kinder aus der öffentlichen Perspektive fotografiert werden.",
+            "1":"Ja, da die Gesichter der Kinder nicht erkennbar sind.",
+            "2":"Nein, da Kinder unter 18 Jahren nur mit der Einwilligung der Eltern fotografiert werden dürfen."
+        },
+        "given_answer":"",
+        "correct_answer":"Nein, da Kinder unter 18 Jahren nur mit der Einwilligung der Eltern fotografiert werden dürfen.",
+        "solution":"Kinder dürfen unter 18 Jahren nur mit der Einwilligung der Eltern fotografiert werden."
+    },
+    {
+        "type":"radio",
+        "image":"level2-12.jpg",
+        "alt":"Tanzstudio mit Tänzern in Action",
+        "source": "https://images.pexels.com/photos/12312/pexels-photo-12312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "last_visited": "2019-01-21",
+        "questions": "Darfst du dieses Motiv ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja, da das Gesicht des Mannes nicht erkennbar ist.",
+            "1":"Ja, es sich um bekannte Gemälde handelt.",
+            "2":"Nein, da es eine Hausordnung zu beachten gibt."
+        },
+        "given_answer":"",
+        "correct_answer":"Nein, da es eine Hausordnung zu beachten gibt.",
+        "solution":"Es gibt eine Hausordnung zu beachten."
+    },
+
+    {
+        "type":"yes-no",
+        "image":"1.jpg",
+        "alt":"Junge und Mädchen beim Spielen",
+        "source": "https://www.flickr.com/photos/zhrefch/6976415275/",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du die spielenden Kinder ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":" ",
+        "correct_answer":"Nein",
+        "solution":"Kinder darfst du NUR mit der Einwilligung der Eltern fotografieren."
+    },
+    
+    {
+        "type":"yes-no",
+        "image":"2.jpg",
+        "alt":"US-Präsident Donald Trump",
+        "source": "https://www.flickr.com/photos/28698046@N08/20446323272/",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du Donald Trump ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Ja",
+        "solution":"Donald Trump ist als Präsident der USA eine Person des öffentlichen Interesses und darf somit ungefragt fotografiert werden."
+    },
+    {
+        "type":"yes-no",
+        "image":"3.jpg",
+        "alt":"Reichstag",
+        "source": "https://www.flickr.com/photos/96482489@N06/17853713990/",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du den Reichstag ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Ja",
+        "solution":"Der Reichstag ist ein öffentliches Gebäude und darf damit von dir ungefragt und ohne Beachtung einer Hausordnung fotografiert werden."
+    },
+    {
+        "type":"yes-no",
+        "image":"4.jpg",
+        "alt":"Sportwagen mit sichtbaren Kennzeichen",
+        "source": "https://cdn.pixabay.com/photo/2015/06/05/15/02/audi-798530_1280.jpg",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du den Sportwagen eines Anderen ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Nein",
+        "solution":"Da das Kennzeichen des Sportwagens zu erkennen ist und dieses zu den personenbezogenen Daten gehört, darfst du den Sportwagen nicht ohne Erlaubnis fotografieren."
+    },
+    {
+        "type":"yes-no",
+        "image":"5.jpg",
+        "alt":"Rockkonzert",
+        "source": "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du während eines Konzertes ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Nein",
+        "solution":"Die Konzertbesucher kann man zwar nicht erkennen, jedoch darfst du das Motiv NICHT ohne Beachtung der Hausordnung der Konzerthalle fotografieren."
+    },
+    {
+        "type":"yes-no",
+        "image":"6.jpg",
+        "alt":"Reichstag mit Personen im Vordergrund",
+        "source": "https://www.flickr.com/photos/fotoinsight/17570540423/",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du den Reichstag mit den Personen davor ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Ja",
+        "solution":"Da es sich um ein öffentliches Gebäude handelt und die Personen im Vordergrund lediglich „Beiwerk“ sind, darfst du dieses Motiv ungefragt fotografieren."
+    },
+    {
+        "type":"yes-no",
+        "image":"7.jpg",
+        "alt":"lesende Frau mit Buch von vorne",
+        "source": "https://www.flickr.com/photos/zhrefch/6830298356/in/photostream/",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du die lesende Frau ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Nein",
+        "solution":"Das ungefragte Fotografieren einer Person mit erkennbarem Gesicht ist eine Verletzung des Persönlichkeitsrechts dieser Person."
+    },
+    {
+        "type":"yes-no",
+        "image":"8.jpg",
+        "alt":"Hund",
+        "source": "https://cdn.pixabay.com/photo/2018/01/09/11/04/dog-3071334_960_720.jpg",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du den Hund eines Fremden ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Ja",
+        "solution":"Die für Sachen geltendenden Vorschriften werden auch auf Tiere angewendet. Da niemand das Recht am Bild von eigenen Sachen hat, darfst du das Motiv fotografieren."
+    },
+    {
+        "type":"yes-no",
+        "image":"9.jpg",
+        "alt":"Rückenansicht Mädchen im Wald",
+        "source":"Quellangabe/Link",
+        "last_visited": "2019-01-01",
+        "questions":"Darfst du den Rücken des Mädchens im Wald ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Ja",
+        "solution":"Da das Gesicht des Mädchens nicht erkenbar ist, darfst du das Motiv ungefragt fotografieren."
+    },
+    {
+        "type":"yes-no",
+        "image":"10.jpg",
+        "alt":"Soldaten in Kaserne",
+        "source": "https://cdn.pixabay.com/photo/2013/02/14/05/02/queensland-81537_1280.jpg",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du die Soldaten in der Kaserne ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Nein",
+        "solution":"Für alle internen millitärischen Objekte besteht ein grundsätzliches Fotoverbot."
+	
+    },
+    {
+        "type":"yes-no",
+        "image":"11.jpg",
+        "alt":"Eingang S+U-Bahnhof Potsdamer Platz",
+        "source": "https://images.pexels.com/photos/1440489/pexels-photo-1440489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "last_visited": "2019-01-01",
+        "questions": "Darfst du den Eingang zum S+U-Bahnhof Potsdamer Platz in Berlin ungefragt bzw. ohne das Lesen von Hausordnungen oder ähnlichen Dokumenten fotografieren?",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Ja",
+        "solution":"Du darfst dieses Motiv ungefragt und ohne Beachtung einer Hausordnung fotografieren, da der Eingang aus einer öffentlichen Perspektive aufgenommen wird."
+    },
+    {
+        "type":"yes-no",
+        "image":"12.jpg",
+        "alt":"Tanzstudio mit Tänzern in Action",
+        "source": "https://images.pexels.com/photos/12312/pexels-photo-12312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "last_visited": "2019-01-01",
+        "questions": "Die Tänzer kann man zwar nicht erkennen, jedoch darfst du das Motiv NICHT ohne Beachtung der Hausordnung des Tanzstudios fotografieren.",
+        "answers":{
+            "0":"Ja",
+            "1":"Nein"
+        },
+        "given_answer":"",
+        "correct_answer":"Nein",
+        "solution":"Die Tänzer kann man zwar nicht erkennen, jedoch darfst du das Motiv NICHT ohne Beachtung der Hausordnung des Tanzstudios fotografieren."
+    }   
+]
