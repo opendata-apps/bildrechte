@@ -1,37 +1,37 @@
 <template>
-  <div class="bg-white rounded-2xl p-8 text-center max-w-2xl mx-auto">
+  <div class="rounded-2xl p-8 text-center max-w-2xl mx-auto">
     <div class="mb-8">
       <Icon name="mdi:trophy" class="text-6xl text-accent-500 mb-4 animate-bounce" />
-      <h2 class="text-4xl font-bold mb-2 text-primary-800">Quiz beendet!</h2>
-      <p class="text-xl text-neutral-600">Großartige Leistung!</p>
+      <h2 class="text-4xl font-bold mb-2 text-primary-800 dark:text-primary-300">Quiz beendet!</h2>
+      <p class="text-xl text-text-600 dark:text-text-300">Großartige Leistung!</p>
     </div>
-    <div class="bg-primary-50 rounded-xl p-6 mb-8">
-      <p class="text-2xl font-semibold text-primary-800">Dein Ergebnis</p>
+    <div class="bg-primary-50 dark:bg-dark-background rounded-xl p-6 mb-8">
+      <p class="text-2xl font-semibold text-primary-800 dark:text-primary-300">Dein Ergebnis</p>
       <div class="flex items-center justify-center mt-4">
         <span class="text-5xl font-bold text-accent-500">{{ score }}</span>
-        <span class="text-2xl text-neutral-600 mx-2">/</span>
-        <span class="text-3xl font-semibold text-neutral-700">{{ questions.length }}</span>
+        <span class="text-2xl text-text-600 dark:text-text-300 mx-2">/</span>
+        <span class="text-3xl font-semibold text-text-700 dark:text-text-200">{{ questions.length }}</span>
       </div>
-      <p class="text-neutral-600 mt-2">Fragen richtig beantwortet</p>
-      <p class="text-neutral-600 mt-2">Prozentsatz: {{ (score / questions.length * 100).toFixed(2) }}%</p>
+      <p class="text-text-600 dark:text-text-300 mt-2">Fragen richtig beantwortet</p>
+      <p class="text-text-600 dark:text-text-300 mt-2">Prozentsatz: {{ (score / questions.length * 100).toFixed(2) }}%</p>
     </div>
     <div class="mb-8">
-      <h3 class="text-2xl font-semibold text-primary-800 mb-4">Fragen-Übersicht</h3>
+      <h3 class="text-2xl font-semibold text-primary-800 dark:text-primary-300 mb-4">Fragen-Übersicht</h3>
       <ul class="space-y-2">
         <li v-for="(question, index) in questions" :key="index" class="flex items-center">
           <Icon :name="userAnswers[index] === question.correct_answer ? 'mdi:check-circle' : 'mdi:close-circle'" 
                 :class="userAnswers[index] === question.correct_answer ? 'text-success-500' : 'text-error-500'"
                 class="mr-2" />
-          <span class="text-neutral-700">Frage {{ index + 1 }}: {{ userAnswers[index] === question.correct_answer ? 'Richtig' : 'Falsch' }}</span>
+          <span class="text-text-700 dark:text-text-200">Frage {{ index + 1 }}: {{ userAnswers[index] === question.correct_answer ? 'Richtig' : 'Falsch' }}</span>
         </li>
       </ul>
     </div>
     <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-      <button @click="$emit('restart')" class="font-bold py-3 px-6 rounded-full transition duration-300 flex items-center justify-center bg-blue-500 text-white hover:bg-blue-600 transform hover:scale-105">
+      <button @click="$emit('restart')" class="font-bold py-3 px-6 rounded-full transition duration-300 flex items-center justify-center bg-primary-500 text-background-50 hover:bg-primary-600 dark:bg-primary-600 dark:hover:bg-primary-700 transform hover:scale-105">
         <Icon name="mdi:refresh" class="mr-2" />
         Quiz neu starten
       </button>
-      <NuxtLink to="/" class="font-bold py-3 px-6 rounded-full transition duration-300 flex items-center justify-center bg-gray-200 text-gray-800 hover:bg-gray-300 transform hover:scale-105">
+      <NuxtLink to="/" class="font-bold py-3 px-6 rounded-full transition duration-300 flex items-center justify-center bg-background-200 text-text-800 hover:bg-background-300 dark:bg-dark-background dark:text-text-50 dark:hover:bg-dark-accent transform hover:scale-105">
         <Icon name="mdi:home" class="mr-2" />
         Zurück zur Startseite
       </NuxtLink>

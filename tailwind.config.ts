@@ -32,7 +32,7 @@ export default <Partial<Config>>{
           50: '#FFFFFF',
           100: '#FDFEFF',
           200: '#FBFDFE',
-           300: '#F9FCFE',
+          300: '#F9FCFE',
           400: '#F8FBFE',
           500: '#F7FBFE',  // Main background color
           600: '#C6C9CB',
@@ -87,6 +87,10 @@ export default <Partial<Config>>{
           700: '#8D1B1B',
           800: '#5E1212',
           900: '#2F0909',
+        },
+        dark: {
+          accent: '#1B1D1E',  // New dark color
+          background: '#181A1B',    // Lighter variant of the dark color
         },
       },
       borderRadius: {

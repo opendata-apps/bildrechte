@@ -60,8 +60,8 @@ function handleRestartQuiz() {
 </script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold mb-6 text-center text-neutral-800">{{ currentCategory.toUpperCase() }}</h1>
+  <div class=" text-text-500 dark:text-text-50">
+    <h1 class="text-3xl font-bold mb-6 text-center text-text-500 dark:text-text-50">{{ currentCategory.toUpperCase() }}</h1>
     <div v-if="!quizFinished && currentQuestionData">
       <QuizQuestion 
         :question="currentQuestionData" 

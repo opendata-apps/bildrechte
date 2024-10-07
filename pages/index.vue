@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto px-4 py-8">
-    <h1 class="text-4xl font-bold mb-8 text-center text-gray-800">Willkommen bei Bildrechte</h1>
-    <p class="text-xl mb-12 text-center text-gray-600">Lerne über Bildrechte, Urheberrechtsgesetze und ethische Überlegungen in der Fotografie.</p>
+  <div class="container mx-auto px-4 py-8  text-text-500 dark:text-text-50">
+    <h1 class="text-4xl font-bold mb-8 text-center text-text-500 dark:text-text-50">Willkommen bei Bildrechte</h1>
+    <p class="text-xl mb-12 text-center text-text-400 dark:text-text-100">Lerne über Bildrechte, Urheberrechtsgesetze und ethische Überlegungen in der Fotografie.</p>
     <TransitionGroup 
       name="category-list" 
       tag="div" 
@@ -34,6 +34,7 @@ useHead({
     }
   ]
 })
+
 </script>
 
 <style scoped>
