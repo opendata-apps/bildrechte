@@ -5,7 +5,7 @@
     "alt": "Private Fotos",
     "source": "https://unsplash.com/photos/MyPYkEV6ppY",
     "last_visited": "2019-08-26",
-    "author": "Photo by Austin Loveing",
+"author": "Photo by Austin Loveing",
     "questions": "Darf das Foto auf Sozialen Netzwerken gepostet werden?",
     "answers": {
       "0": "Ja, aber nur wenn die Person zustimmt.",
@@ -13,7 +13,7 @@
     },
     "given_answer": " ",
     "correct_answer": "Ja, aber nur wenn die Person zustimmt.",
-    "solution": "Bilder dürfen nur mit Einwilligung der Abgebildeten verbreitet oder veröffentlicht werden (<a target='_blank' rel='noopener noreferrer'  href='https://www.gesetze-im-internet.de/kunsturhg/__22.html'>§ 22 Kunsturheberechtsgesetz</a>). Wer unbefugt fotografiert und dadurch einen »persönlichen Lebensbereich« verletzt, macht sich unter Umständen strafbar (<a target='_blank' rel='noopener noreferrer' href='https://www.gesetze-im-internet.de/stgb/__201a.html'>§ 201A Strafgesetzbuch</a>). Das kann zum Beispiel bei heimlichen Aufnahmen von Menschen in privaten Räumen der Fall sein."
+    "solution": "Bilder dürfen nur mit Einwilligung der Abgebildeten verbreitet oder veröffentlicht werden (<a target='_blank' rel='noopener noreferrer'  href='https://www.gesetze-im-internet.de/kunsturhg/__22.html'>§ 22 Kunsturheberechtsgesetz</a>). Wer unbefugt fotografiert und dadurch einen »persönlichen Lebensbereich« verletzt, macht sich unter Umständen strafbar (<a target='_blank' rel='noopener noreferrer' href='https://www.gesetze-im-internet.de/stgb/__201a.html'>§ 201A Strafgesetzbuch</a>). Das kann zum Beispiel bei heimlichen Aufnahmen von Menschen in privaten Räumen der Fall sein. "
   },
   {
     "type": "radio",
@@ -21,7 +21,7 @@
     "alt": "Brandenburgr Tor",
     "source": "https://www.needpix.com/photo/download/11408/brandenburg-goal-berlin-paris-space-building-architecture-monument-landmark",
     "last_visited": "2019-01-21",
-    "author": "Dietmar_H",
+"author": "Dietmar_H",
     "questions": "Darfst du das Brandenburger Tor fotografieren wenn Personen auf dem Bild zu erkennen sind?",
     "answers": {
       "0": "Ja, da die Personen im Vordergrund lediglich »Beiwerk« sind.",
@@ -31,5 +31,233 @@
     "given_answer": " ",
     "correct_answer": "Ja, da die Personen im Vordergrund lediglich »Beiwerk« sind.",
     "solution": "Du darfst das Brandenburger Tor mit den Personen im Vordergrund ungefragt fotografieren, da die Personen im Vordergrund lediglich »Beiwerk« sind."
-  }
+  },
+
+  {
+    "type": "radio",
+    "image": "level2-2.jpg",
+    "alt": "Altes Auto",
+    "source": "https://www.pinterest.de/pin/793407659323011681/",
+    "author": "",
+    "last_visited": "2019-01-21",
+    "questions": "Darfst du das Cabrio ungefragt fotografieren?",
+    "answers": {
+      "0": "Ja, da das Fahrzeug aus einer öffentlichen Perspektive fotografiert wird.",
+      "1": "Ja, da keine Personen im Auto sitzen, deren Persönlichkeitsrechte verletzt werden könnten.",
+      "2": "Nein, da das Kennzeichen des Autos zu erkennen ist und dieses zu den personenbezogenen Daten gehört."
+    },
+    "given_answer": "",
+    "correct_answer": "Nein, da das Kennzeichen des Autos zu erkennen ist und dieses zu den personenbezogenen Daten gehört.",
+    "solution": "Du darfst das Cabrio nicht ungefragt fotografieren, da das Kennzeichen zu erkennen ist und dieses zu den personenbezogenen Daten gehört."
+  },
+  {
+    "type": "radio",
+    "image": "level2-3.jpg",
+    "alt": "",
+    "source": "",
+    "author": "",
+    "author": "",
+    "last_visited": "2019-01-21",
+    "questions": "Darfst du Angela Merkel ungefragt fotografieren?",
+    "answers": {
+      "0": "Ja, da Angela Merkel eine Person des öffentlichen Interesses ist.",
+      "1": "Nein, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrecht von Angela Merkel verletzt werden würde.",
+      "2": "Nein, da es eine Hausordnung zu beachten gibt."
+    },
+    "given_answer": "",
+    "correct_answer": "Ja, da Angela Merkel eine Person des öffentlichen Interesses ist.",
+    "solution": "Angela Merkel ist eine Person des öffentlichen Interesses und darf somit ungefragt fotografiert werden."
+  },
+  {
+    "type": "radio",
+    "image": "level2-4.jpg",
+    "alt": "",
+    "source": "",
+    "author": "",
+    "last_visited": "2019-01-21",
+    "questions": "Darfst du die Kindergruppe ungefragt fotografieren?",
+    "answers": {
+      "0": "Ja, da das Motiv aus der öffentlichen Perspektive aufgenommen wird.",
+      "1": "Ja, da man Kinder unter 16 Jahren nicht um Erlaubnis fragen braucht.",
+      "2": "Nein, da Kinder unter 16 Jahren nur mit der Einwilligung der Eltern fotografiert werden dürfen."
+    },
+    "given_answer": "",
+    "correct_answer": "Nein, da Kinder unter 16 Jahren nur mit der Einwilligung der Eltern fotografiert werden dürfen.",
+    "solution": "Kinder unter 16 Jahren dürfen nur mit der Einwilligung der Eltern fotografiert werden."
+  },
+  {
+    "type": "radio",
+    "image": "adrian-dascal-0TZAves0UL4-unsplash.jpg",
+    "alt": "Mann im Profil",
+    "source": "https://unsplash.com/s/photos/person-side-view",
+     "author": "Photo by Adrian Dascal on Unsplash",
+    "last_visited": "2019-11-11",
+    "questions": "Darfst du den jungen Mann ungefragt fotografieren?",
+    "answers": {
+      "0": "Ja, da der Mann aus einer öffentlichen Perspektive fotografiert wird.",
+      "1": "Nein, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrechts des Mannes verletzt werden würde.",
+      "2": "Nein, da es eine Hausordnung zu beachten gibt."
+    },
+    "given_answer": "",
+     "correct_answer": "Nein, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrechts des Mannes verletzt werden würde.",
+    "solution": "Du darfst den Mann nicht ungefragt fotografieren, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrecht des Mannes verletzt werden würde."
+  },
+  {
+    "type":"radio",
+    "image":"taylor-grote-vVaRqEeb_Ss-unsplash.jpg",
+    "alt":"Katze",
+    "source": "https://unsplash.com/photos/vVaRqEeb_Ss",
+    "author": "Photo by Taylor Grote on Unsplash",
+    "last_visited": "2019-01-21",
+    "questions": "Darfst du die fremde Katze ungefragt fotografieren?",
+    "answers":{
+      "0":"Ja, da niemand das Recht am Bild von eigenen Sachen hat und auf Tiere die für Sachen geltenden Vorschriften angewendet werden.",
+      "1":"Nein, da das Gesicht eindeutig zu erkennen ist und somit das Persönlichkeitsrechts der Katze verletzt werden würde.",
+      "2":"Nein, da es sich um ein privates Haustier handelt."
+    },
+    "given_answer":"",
+    "correct_answer":"Ja, da niemand das Recht am Bild von eigenen Sachen hat und auf Tiere die für Sachen geltenden Vorschriften angewendet werden.",
+    "solution":"Du darfst eine fremde Katze ungefragt fotografieren. Niemand hat das Recht am Bild von eigenen Sachen und auf Tiere werden die für Sachen geltenden Vorschriften angewendet."
+  },
+  {
+    "type":"radio",
+    "image":"level2-7.jpg",
+    "alt":"",
+    "source": "",
+    "author": "",
+    "last_visited": "2019-01-21",
+    "questions": "Darfst du den Tiger im Zoo ungefragt fotografieren?",
+    "answers":{
+      "0":"Ja, da niemand das Recht am Bild von eigenen Sachen hat und auf Tiere die für Sachen geltenden Vorschriften angewendet werden.",
+      "1":"Ja, da man ein Tier nicht um Erlaubnis fragen kann.",
+      "2":"Nein, da es im Zoo eine Hausordnung zu beachten gibt."
+    },
+    "given_answer":"",
+    "correct_answer":"Nein, da es im Zoo eine Hausordnung zu beachten gibt.",
+    "solution":"Bevor man Tiere im Zoo fotografiert, sollte man sich vorher in der Hausordnung des Zoos informieren, um auf der sicheren Seite zu sein."
+  },
+  {
+    "type":"radio",
+    "image":"level2-8.jpg",
+    "alt":"",
+    "source": "",
+    "author": "",
+    "last_visited": "2019-01-21",
+    "questions": "Darfst du von außerhalb des Grundstückes das Haus ungefragt fotografieren?",
+    "answers":{
+      "0":"Ja, das Haus aus der öffentlichen Perspektive aufgenommen wird.",
+      "1":"Nein, da es sich um ein privates Grundstück handelt.",
+      "2":"Nein, da es eine Hausordnung zu beachten gibt."
+    },
+    "given_answer":"",
+    "correct_answer":"Ja, das Haus aus der öffentlichen Perspektive aufgenommen wird.",
+    "solution":"Du darfst das Haus ungefragt fotografieren, solange erkennbar ist, dass es aus der öffentlichen Perspektive aufgenommen wurde."
+  },
+  {
+    "type":"radio",
+    "image":"level2-9.jpg",
+    "alt":"Gartenmoebel",
+    "source":"https://unsplash.com/photos/Pav8_i4Rylc",
+    "author": "Photo by Randy Fath on Unsplash",
+    "last_visited": "2019-12-04",
+    "questions":"Darfst du auf einem fremden Privatgrundstück ungefragt fotografieren?",
+    "answers":{
+      "0":"Ja, da das Grundstück aus der öffentlichen Perspektive aufgenommen wird.",
+      "1":"Nein, da es sich um ein privates Grundstück handelt.",
+      "2":"Nein, da es eine Hausordnung zu beachten gibt."
+    },
+    "given_answer":"",
+    "correct_answer":"Nein, da es sich um ein privates Grundstück handelt.",
+    "solution":"Du darfst auf einem privaten Grundstück nicht ungefragt fotografieren."
+  },
+  {
+      "type":"radio",
+      "image":"level2-10.jpg",
+      "alt":"U-Bahn",
+      "source": "https://unsplash.com/photos/YNHF1Ps_yMs",
+      "author": "Photo by Victor Kallenbach on Unsplash",
+      "last_visited": "2019-01-21",
+      "questions": "Darfst du eine einfahrende U-Bahn ungefragt fotografieren?",
+      "answers":{
+          "0":"Ja, da das Motiv aus der öffentlichen Perspektive fotografiert wird.",
+          "1":"Ja, da niemand das Recht am Bild von eigenen Sachen hat.",
+          "2":"Nein, da es eine Hausordnung zu beachten gibt."
+      },
+      "given_answer":"",
+      "correct_answer":"Nein, da es eine Hausordnung zu beachten gibt.",
+      "solution":"Du darfst eine einfahrende U-Bahn nicht ungefragt fotografieren, da in Bahnhöfen eine Hausordnung zu beachten ist."
+  },
+  {
+    "type":"radio",
+    "image":"level2-11.jpg",
+    "alt":"",
+    "source": "",
+    "author": "",
+    "last_visited": "2019-01-21",
+    "questions": "Darfst du die spielenden Kinder ungefragt fotografieren?",
+    "answers":{
+      "0":"Ja, da die Kinder aus der öffentlichen Perspektive fotografiert werden.",
+      "1":"Ja, da die Gesichter der Kinder nicht erkennbar sind.",
+      "2":"Nein, da Kinder unter 16 Jahren nur mit der Einwilligung der Eltern fotografiert werden dürfen."
+    },
+    "given_answer":"",
+    "correct_answer":"Nein, da Kinder unter 16 Jahren nur mit der Einwilligung der Eltern fotografiert werden dürfen.",
+    "solution":"Kinder unter 16 Jahren dürfen nur mit der Einwilligung der Eltern fotografiert werden."
+  },
+  {
+    "type":"radio",
+    "image":"level2-12.jpg",
+    "alt":"",
+    "source": "",
+    "author": "",
+    "last_visited": "2019-01-21",
+    "questions": "Darfst du in der Galerie ungefragt fotografieren?",
+    "answers":{
+      "0":"Ja, da das Gesicht des Mannes nicht erkennbar ist.",
+      "1":"Ja, da es sich um bekannte Gemälde handelt.",
+      "2":"Nein, da es eine Hausordnung zu beachten gibt."
+    },
+    "given_answer":"",
+    "correct_answer":"Nein, da es eine Hausordnung zu beachten gibt.",
+    "solution":"Du darfst nicht in einer Galerie fotografieren, ohne die Hausordnung zu beachten."
+  },
+  {
+    "type": "radio",
+    "image": "xml-grabstein.jpg",
+    "alt": "Grabstein",
+    "author": "Sleuth & Scrapbooker & Conversationalist",
+    "source": "https://knowyourmeme.com/photos/222941-fake-html-tags",
+    "last_visited": "2019-11-14",
+    "help_query": "Hackenkreuze tragen? Hackenkreuzschmierereien?",
+    "help_answer": "Die Tat wird mit Freiheitsstrafe von bis zu drei Jahren oder mit Geldstrafe bestraft.(<a  target='_blank' rel='noopener noreferrer' href='https://de.wikipedia.org/wiki/Verwenden_von_Kennzeichen_verfassungswidriger_Organisationen'>Artikel auf Wikipedia</a>)",
+
+    "questions": "Ein Grabstein, mit einem Hakenkreuz beschmiert, wurde im sozialen Netzwerk gepostet. Wie hoch ist das maximale Strafmaß?",
+    "answers": {
+        "0": "Ein Fall von Volksverhetzung wird mit bis zu fünf Jahren Haft bestraft.",
+        "1": "Eine Unterlassungsklage mit maximal zehn Tagessätzen droht.",
+        "2": "Wenn ich unter 18 Jahre bin, passiert nix."
+    },
+"given_answer": "",
+    "correct_answer": "Ein Fall von Volksverhetzung wird mit bis zu fünf Jahren Haft bestraft.",
+    "solution": "<a  target='_blank' rel='noopener noreferrer' href='https://de.wikipedia.org/wiki/Verwenden_von_Kennzeichen_verfassungswidriger_Organisationen'>Artikel auf Wikipedia</a>"
+  },
+  {
+    "type": "radio",
+    "image": "unfall.jpg",
+    "alt": "Unfall",
+    "author": "Ian Valerio",
+    "source": "https://dev.nextthought.com/blog/2019/10/intro-zodb.html",
+    "last_visited": "2019-11-14",
+    "help_query": "Gaffer",
+    "help_answer": "Quelle: https://www.bussgeld-info.de/gaffer-unfall/",
+    "questions": "Du fährst an einem Unfall vorbei und machst heimlich Aufnahmen! Wie hoch ist das maximale Strafmaß für diese Handlung?",
+    "answers": {
+        "0": "Geldstrafe",
+        "1": "Freiheitsstrafe bis zu zwei Jahren, Geldstrafe",
+        "2": "Freiheitsstrafe bis zu drei Jahren auf Bewährung"
+    },
+"given_answer": "",
+    "correct_answer": "Freiheitsstrafe bis zu zwei Jahren, Geldstrafe",
+    "solution": "Freiheitsstrafe bis zu zwei Jahren, Geldstrafe"
+}
 ]
