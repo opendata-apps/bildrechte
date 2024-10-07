@@ -2,11 +2,7 @@
   <div class="container mx-auto px-4 py-8">
     <h1 class="text-4xl font-bold mb-8 text-center text-gray-800">Willkommen bei Bildrechte</h1>
     <p class="text-xl mb-12 text-center text-gray-600">Lerne über Bildrechte, Urheberrechtsgesetze und ethische Überlegungen in der Fotografie.</p>
-    <div v-if="isLoading" class="flex items-center justify-center h-64">
-      <Icon name="mdi:loading" class="animate-spin text-primary-500 text-4xl" />
-    </div>
     <TransitionGroup 
-      v-else
       name="category-list" 
       tag="div" 
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
@@ -23,14 +19,6 @@
 <script setup lang="ts">
 
 const { categories } = useQuiz()
-const isLoading = ref(true)
-
-onMounted(() => {
-  // Simulate loading delay (remove this in production)
-  setTimeout(() => {
-    isLoading.value = false
-  }, 1000)
-})
 
 // Add dynamic meta tags
 useHead({

@@ -40,6 +40,8 @@
 </template>
 
 <script setup lang="ts">
+import confetti from 'canvas-confetti';
+
 const props = defineProps<{
   score: number;
   questions: any[];

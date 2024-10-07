@@ -21,8 +21,6 @@ const {
   endQuiz
 } = useQuiz()
 
-const isLoading = ref(true)
-
 // Add dynamic meta tags
 useHead(() => ({
   title: `${currentCategory.value.toUpperCase()} - Bildrechte Quiz`,
@@ -39,10 +37,8 @@ useHead(() => ({
 }))
 
 const loadQuizQuestions = async () => {
-  isLoading.value = true
   const level = parseInt(route.query.level as string) || 1
   await loadQuestions(level)
-  isLoading.value = false
 }
 
 onMounted(loadQuizQuestions)
@@ -66,7 +62,7 @@ function handleRestartQuiz() {
 <template>
   <div>
     <h1 class="text-3xl font-bold mb-6 text-center text-neutral-800">{{ currentCategory.toUpperCase() }}</h1>
-    <div v-if="!quizFinished && currentQuestionData && !isLoading">
+    <div v-if="!quizFinished && currentQuestionData">
       <QuizQuestion 
         :question="currentQuestionData" 
         :currentQuestion="currentQuestion" 
@@ -92,9 +88,6 @@ function handleRestartQuiz() {
       :userAnswers="userAnswers"
       @restart="handleRestartQuiz"
     />
-    <div v-else class="flex items-center justify-center h-64">
-      <Icon name="mdi:loading" class="animate-spin text-primary-500 text-4xl" />
-    </div>
   </div>
 </template>
 
