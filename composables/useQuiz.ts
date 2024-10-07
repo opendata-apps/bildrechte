@@ -76,6 +76,10 @@ export function useQuiz() {
     ).length
   })
 
+  function shuffleArray(array: any[]) {
+    return array.sort(() => Math.random() - 0.5);
+  }
+
   async function loadQuestions(level: number) {
     try {
       const response = await fetch(`/api/questions?level=${level}`)
@@ -83,8 +87,15 @@ export function useQuiz() {
         throw new Error(`Error ${response.status}: ${response.statusText}`);
       }
       const loadedQuestions = await response.json()
-      // Add the level to each question
-      questions.value = loadedQuestions.map((q: Question) => ({ ...q, level }))
+      // Add the level to each question and shuffle
+      questions.value = shuffleArray(loadedQuestions.map((q: Question) => ({ ...q, level })))
+      // Shuffle answers if applicable
+      questions.value.forEach((question) => {
+        question.answers = shuffleArray(Object.entries(question.answers)).reduce((obj, [key, value]) => {
+          obj[key] = value;
+          return obj;
+        }, {} as Answer);
+      })
       currentCategory.value = categories.find(cat => cat.level === level)?.name || ''
       currentLevel.value = level
       currentQuestion.value = 0
