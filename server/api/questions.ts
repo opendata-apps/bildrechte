@@ -1,4 +1,3 @@
-import { defineEventHandler } from 'h3'
 import level1 from '~/assets/data/level1.json'
 import level2 from '~/assets/data/level2.json'
 import level3 from '~/assets/data/level3.json'

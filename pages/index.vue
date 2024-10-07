@@ -1,32 +1,61 @@
 <template>
-  <div class="home">
-    <h1>Willkommen bei Bildrechte</h1>
-    <p>Lerne über Bildrechte, Urheberrechtsgesetze und ethische Überlegungen in der Fotografie.</p>
-    <NuxtLink to="/quiz" class="start-button">Quiz starten</NuxtLink>
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-8 text-center text-gray-800">Willkommen bei Bildrechte</h1>
+    <p class="text-xl mb-12 text-center text-gray-600">Lerne über Bildrechte, Urheberrechtsgesetze und ethische Überlegungen in der Fotografie.</p>
+    <div v-if="isLoading" class="flex items-center justify-center h-64">
+      <Icon name="mdi:loading" class="animate-spin text-primary-500 text-4xl" />
+    </div>
+    <TransitionGroup 
+      v-else
+      name="category-list" 
+      tag="div" 
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+    >
+      <CategoryCard 
+        v-for="category in categories" 
+        :key="category.name" 
+        :category="category"
+      />
+    </TransitionGroup>
   </div>
 </template>
 
+<script setup lang="ts">
+
+const { categories } = useQuiz()
+const isLoading = ref(true)
+
+onMounted(() => {
+  // Simulate loading delay (remove this in production)
+  setTimeout(() => {
+    isLoading.value = false
+  }, 1000)
+})
+
+// Add dynamic meta tags
+useHead({
+  title: 'Bildrechte Quiz - Lerne über Urheberrecht und Fotografie',
+  meta: [
+    {
+      name: 'description',
+      content: 'Verbessere dein Wissen über Bildrechte, Urheberrechtsgesetze und ethische Überlegungen in der Fotografie mit unserem interaktiven Quiz.'
+    },
+    {
+      name: 'keywords',
+      content: 'Bildrechte, Quiz, Urheberrecht, Fotografie, Lernen, Ethik'
+    }
+  ]
+})
+</script>
+
 <style scoped>
-.home {
-  text-align: center;
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
+.category-list-enter-active,
+.category-list-leave-active {
+  transition: all 0.5s ease;
 }
-
-.start-button {
-  display: inline-block;
-  background-color: #3498db;
-  color: #fff;
-  padding: 15px 30px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  margin-top: 2rem;
-  transition: background-color 0.3s;
-}
-
-.start-button:hover {
-  background-color: #2980b9;
+.category-list-enter-from,
+.category-list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
 }
 </style>
