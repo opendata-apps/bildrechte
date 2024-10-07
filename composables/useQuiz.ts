@@ -1,51 +1,82 @@
-// composables/useQuiz.ts
-import type { QuizState, QuizQuestion } from '~/types/quiz'
+import { ref, computed } from 'vue'
 
-export const useQuiz = () => {
-    const state = reactive<QuizState>({
-        level1: { questions: [], currentQuestionIndex: 0, score: 0 },
-        level2: { questions: [], currentQuestionIndex: 0, score: 0 },
-        level3: { questions: [], currentQuestionIndex: 0, score: 0 },
-        currentLevel: 1
-    })
+export function useQuiz() {
+  const questions = ref([])
+  const currentQuestion = ref(0)
+  const userAnswers = ref([])
+  const showFeedback = ref(false)
+  const quizFinished = ref(false)
+  const showHelpInfo = ref(false)
+  const currentLevel = ref(1)
 
-    const loadQuestions = async (level: number) => {
-        const response = await fetch(`/api/questions?level=${level}`)
-        const questions: QuizQuestion[] = await response.json()
-        const levelKey = `level${level}` as keyof QuizState
-        if (typeof state[levelKey] !== 'number') {
-            state[levelKey].questions = questions
-        }
+  const currentQuestionData = computed(() => questions.value[currentQuestion.value])
+  const isLastQuestion = computed(() => currentQuestion.value === questions.value.length - 1)
+  const score = computed(() => {
+    return userAnswers.value.filter((answer, index) => 
+      answer === questions.value[index].correct_answer
+    ).length
+  })
+
+  async function loadQuestions(level: number) {
+    try {
+      const response = await fetch(`/api/questions?level=${level}`)
+      questions.value = await response.json()
+    } catch (error) {
+      console.error('Error loading questions:', error)
     }
+  }
 
-    const answerQuestion = (answer: string) => {
-        const currentLevel = `level${state.currentLevel}` as keyof QuizState
-        const currentLevelState = state[currentLevel]
-        if (typeof currentLevelState !== 'number') {
-            const currentQuestion = currentLevelState.questions[currentLevelState.currentQuestionIndex]
+  function answerQuestion(answer: string) {
+    userAnswers.value.push(answer)
+    showFeedback.value = true
+  }
 
-            if (currentQuestion) {
-                currentQuestion.given_answer = answer
-                if (answer === currentQuestion.correct_answer) {
-                    currentLevelState.score++
-                }
-
-                currentLevelState.currentQuestionIndex++
-            }
-        }
+  function nextQuestion() {
+    showFeedback.value = false
+    showHelpInfo.value = false
+    if (isLastQuestion.value) {
+      if (currentLevel.value < 3) {
+        currentLevel.value++
+        loadQuestions(currentLevel.value)
+        currentQuestion.value = 0
+        userAnswers.value = []
+      } else {
+        quizFinished.value = true
+      }
+    } else {
+      currentQuestion.value++
     }
+  }
 
-    const nextLevel = () => {
-        if (state.currentLevel < 3) {
-            state.currentLevel++
-            loadQuestions(state.currentLevel)
-        }
-    }
+  function restartQuiz() {
+    currentLevel.value = 1
+    loadQuestions(currentLevel.value)
+    currentQuestion.value = 0
+    userAnswers.value = []
+    showFeedback.value = false
+    showHelpInfo.value = false
+    quizFinished.value = false
+  }
 
-    return {
-        state,
-        loadQuestions,
-        answerQuestion,
-        nextLevel
-    }
+  function toggleHelpInfo() {
+    showHelpInfo.value = !showHelpInfo.value
+  }
+
+  return {
+    questions,
+    currentQuestion,
+    userAnswers,
+    showFeedback,
+    quizFinished,
+    showHelpInfo,
+    currentLevel,
+    currentQuestionData,
+    isLastQuestion,
+    score,
+    loadQuestions,
+    answerQuestion,
+    nextQuestion,
+    restartQuiz,
+    toggleHelpInfo
+  }
 }

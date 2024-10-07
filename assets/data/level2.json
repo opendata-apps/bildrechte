@@ -1,0 +1,35 @@
+[
+  {
+    "type": "radio",
+    "image": "level2-13.jpg",
+    "alt": "Private Fotos",
+    "source": "https://unsplash.com/photos/MyPYkEV6ppY",
+    "last_visited": "2019-08-26",
+    "author": "Photo by Austin Loveing",
+    "questions": "Darf das Foto auf Sozialen Netzwerken gepostet werden?",
+    "answers": {
+      "0": "Ja, aber nur wenn die Person zustimmt.",
+      "1": "Nein, besser nicht."
+    },
+    "given_answer": " ",
+    "correct_answer": "Ja, aber nur wenn die Person zustimmt.",
+    "solution": "Bilder dürfen nur mit Einwilligung der Abgebildeten verbreitet oder veröffentlicht werden (<a target='_blank' rel='noopener noreferrer'  href='https://www.gesetze-im-internet.de/kunsturhg/__22.html'>§ 22 Kunsturheberechtsgesetz</a>). Wer unbefugt fotografiert und dadurch einen »persönlichen Lebensbereich« verletzt, macht sich unter Umständen strafbar (<a target='_blank' rel='noopener noreferrer' href='https://www.gesetze-im-internet.de/stgb/__201a.html'>§ 201A Strafgesetzbuch</a>). Das kann zum Beispiel bei heimlichen Aufnahmen von Menschen in privaten Räumen der Fall sein."
+  },
+  {
+    "type": "radio",
+    "image": "level2-1.jpg",
+    "alt": "Brandenburgr Tor",
+    "source": "https://www.needpix.com/photo/download/11408/brandenburg-goal-berlin-paris-space-building-architecture-monument-landmark",
+    "last_visited": "2019-01-21",
+    "author": "Dietmar_H",
+    "questions": "Darfst du das Brandenburger Tor fotografieren wenn Personen auf dem Bild zu erkennen sind?",
+    "answers": {
+      "0": "Ja, da die Personen im Vordergrund lediglich »Beiwerk« sind.",
+      "1": "Ja, da es sich um ein öffentliches Gebäude handelt.",
+      "2": "Nein, da es das Persönlichkeitsrecht der abgebildeten Personen verletzen würde."
+    },
+    "given_answer": " ",
+    "correct_answer": "Ja, da die Personen im Vordergrund lediglich »Beiwerk« sind.",
+    "solution": "Du darfst das Brandenburger Tor mit den Personen im Vordergrund ungefragt fotografieren, da die Personen im Vordergrund lediglich »Beiwerk« sind."
+  }
+]

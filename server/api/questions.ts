@@ -1,30 +1,24 @@
-import { QuizQuestion } from '~/types/quiz'
-import level1Questions from '~/assets/level1.json'
-import level2Questions from '~/assets/level2.json'
-import level3Questions from '~/assets/level3.json'
+import { defineEventHandler } from 'h3'
+import level1 from '~/assets/data/level1.json'
+import level2 from '~/assets/data/level2.json'
+import level3 from '~/assets/data/level3.json'
+
+const levels = {
+  1: level1,
+  2: level2,
+  3: level3
+}
 
 export default defineEventHandler((event) => {
-    const query = getQuery(event)
-    const level = parseInt(query.level as string)
+  const query = getQuery(event)
+  const level = parseInt(query.level as string) || 1
 
-    let questions: QuizQuestion[]
-
-    switch (level) {
-        case 1:
-            questions = level1Questions as QuizQuestion[]
-            break
-        case 2:
-            questions = level2Questions as QuizQuestion[]
-            break
-        case 3:
-            questions = level3Questions as QuizQuestion[]
-            break
-        default:
-            throw createError({
-                statusCode: 400,
-                statusMessage: 'Invalid level',
-            })
-    }
-
-    return questions
+  if (level in levels) {
+    return levels[level as keyof typeof levels]
+  } else {
+    throw createError({
+      statusCode: 404,
+      statusMessage: 'Level not found',
+    })
+  }
 })

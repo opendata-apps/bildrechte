@@ -1,0 +1,38 @@
+[
+  {
+    "type": "radio",
+    "image": "klassenfoto.jpg",
+    "alt": "Lehrer",
+    "author": "Photo by NeONBRAND on Unsplash",
+    "source": "https://unsplash.com/photos/Z-fq3wBVfMU", 
+    "last_visited": "2019-11-02",
+    "help_query": "Was bedeuten »konkludent«?",
+    "help_answer": "Das fachsprachliche Adjektiv »konkludent« bedeutet folgerichtig oder auch sich zwingend ergebend.",
+    "questions": "Muss ein Lehrer die Veröffentlichung eines Klassenfotos, auf dem er abgelichtet ist, hinnehmen?",
+    "answers": {
+      "0": "Nein, denn die Persönlichkeitsrechte wiegen schwerer.",
+      "1": "Ja, denn Klassenfotos werden oft in Schulen angefertigt und das sind öffentliche Räume.",
+      "2": "Ja, der Lehrer hat durch seine Teilnahme am Fototermin konkludent in die Veröffentlichung der Bilder eingewilligt."
+    },
+    "given_answer": "",
+    "correct_answer": "Ja, der Lehrer habe durch seine Teilnahme am Fototermin konkludent in die Veröffentlichung der Bilder eingewilligt.",
+    "solution": "Durch sein schlüssiges Verhalten durch die Teilnahme am Fototermin, muss ein Lehrer die Veröffentlichung eines Klassenfotos im Jahrbuch hinnehmen."
+  },
+  {
+    "type": "radio",
+    "image": "tatoo.jpg",
+    "alt": "Tatoo",
+    "author": "Judeus Samson",
+    "source": "https://unsplash.com/photos/M6_ZGodiRWc", 
+    "last_visited": "2019-10-12",
+    "questions": "Kann eine Tätowierung ein Kunstwerk sein und muss der Tatookünstler der Veröffentlichung seines Kunstwerkes zustimmen?",
+    "answers": {
+      "0": "Ja, denn wenn ein Tatoo auf einem Foto zu sehen ist, handelt sich um ein öffentlich ausgestelltes Kunstwerk.",
+      "1": "Nein, die Trägerin des Tatoos ist die rechtmäßige Besitzerin, sie hat das »Werk« bezahlt.",
+      "2": "Es gibt noch kein Urteil für einen solchen Fall."
+    },
+    "given_answer": "",
+    "correct_answer": "Es gibt noch kein Urteil für einen solchen Fall.",
+    "solution": "Für diesen Fall gibt es noch keine bundesgerichtliche Entscheidung in Deutschland."
+  }
+]

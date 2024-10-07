@@ -1,15 +1,32 @@
 <template>
-    <div class="max-w-4xl mx-auto p-4">
-        <h1 class="text-3xl font-bold mb-4">Bildrechte (Image Rights) Quiz</h1>
-        <p class="mb-4">Test your knowledge about image rights and copyright laws.</p>
-        <button @click="startQuiz" class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-            Start Quiz
-        </button>
-    </div>
+  <div class="home">
+    <h1>Willkommen bei Bildrechte</h1>
+    <p>Lerne über Bildrechte, Urheberrechtsgesetze und ethische Überlegungen in der Fotografie.</p>
+    <NuxtLink to="/quiz" class="start-button">Quiz starten</NuxtLink>
+  </div>
 </template>
 
-<script setup lang="ts">
-const startQuiz = () => {
-    navigateTo('/level1')
+<style scoped>
+.home {
+  text-align: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
-</script>
+
+.start-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #2980b9;
+}
+</style>
