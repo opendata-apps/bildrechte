@@ -1,3 +1,7 @@
+import level1 from '~/assets/data/level1.json'
+import level2 from '~/assets/data/level2.json'
+import level3 from '~/assets/data/level3.json'
+
 interface Answer {
   [key: string]: string;
 }
@@ -26,6 +30,12 @@ interface Category {
   description: string;
   questionCount: number;
   estimatedTime: string;
+}
+
+const levels = {
+  1: level1,
+  2: level2,
+  3: level3
 }
 
 export function useQuiz() {
@@ -76,37 +86,26 @@ export function useQuiz() {
     ).length
   })
 
-  function shuffleArray(array: any[]) {
-    return array.sort(() => Math.random() - 0.5);
+  function shuffleArray<T>(array: T[]): T[] {
+    return [...array].sort(() => Math.random() - 0.5);
   }
 
-  async function loadQuestions(level: number) {
-    try {
-      const response = await fetch(`/api/questions?level=${level}`)
-      if (!response.ok) {
-        throw new Error(`Error ${response.status}: ${response.statusText}`);
-      }
-      const loadedQuestions = await response.json()
-      // Add the level to each question and shuffle
-      questions.value = shuffleArray(loadedQuestions.map((q: Question) => ({ ...q, level })))
-      // Shuffle answers if applicable
-      questions.value.forEach((question) => {
-        question.answers = shuffleArray(Object.entries(question.answers)).reduce((obj, [key, value]) => {
-          obj[key] = value;
-          return obj;
-        }, {} as Answer);
-      })
-      currentCategory.value = categories.find(cat => cat.level === level)?.name || ''
-      currentLevel.value = level
-      currentQuestion.value = 0
-      userAnswers.value = []
-      showFeedback.value = false
-      quizFinished.value = false
-    } catch (error) {
-      console.error('Error loading questions:', error)
-      // Provide user feedback
-      alert('Es gab ein Problem beim Laden der Fragen. Bitte versuchen Sie es später erneut.');
-    }
+  function loadQuestions(level: number) {
+    const loadedQuestions = levels[level as keyof typeof levels] as Question[]
+    // Add the level to each question and shuffle
+    questions.value = shuffleArray(loadedQuestions.map(q => ({ ...q, level })))
+    // Shuffle answers if applicable
+    questions.value.forEach((question) => {
+      question.answers = Object.fromEntries(
+        shuffleArray(Object.entries(question.answers))
+      )
+    })
+    currentCategory.value = categories.find(cat => cat.level === level)?.name || ''
+    currentLevel.value = level
+    currentQuestion.value = 0
+    userAnswers.value = []
+    showFeedback.value = false
+    quizFinished.value = false
   }
 
   function answerQuestion(answer: string) {

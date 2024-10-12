@@ -96,6 +96,9 @@ export default <Partial<Config>>{
       borderRadius: {
         '2xl': '1rem',
       },
+      fontFamily: {
+        custom: ['Inter'],
+      },
     },
   },
 }

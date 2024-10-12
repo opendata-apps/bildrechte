@@ -13,8 +13,7 @@
         <span class="text-3xl font-semibold text-text-700 dark:text-text-200">{{ questions.length }}</span>
       </div>
       <p class="text-text-600 dark:text-text-300 mt-2">Fragen richtig beantwortet</p>
-      <p class="text-text-600 dark:text-text-300 mt-2">Prozentsatz: {{ (score / questions.length * 100).toFixed(2) }}%
-      </p>
+      <p class="text-text-600 dark:text-text-300 mt-2">Prozentsatz: {{ (score / questions.length * 100).toFixed(2) }}%</p>
     </div>
     <div class="mb-8">
       <h3 class="text-2xl font-semibold text-primary-800 dark:text-primary-300 mb-4">Fragen-Übersicht</h3>
@@ -23,8 +22,7 @@
           <Icon :name="userAnswers[index] === question.correct_answer ? 'mdi:check-circle' : 'mdi:close-circle'"
             :class="userAnswers[index] === question.correct_answer ? 'text-success-500' : 'text-error-500'" class="mr-2"
             aria-hidden="true" />
-          <span class="text-text-700 dark:text-text-200">Frage {{ index + 1 }}: {{ userAnswers[index] ===
-            question.correct_answer ? 'Richtig' : 'Falsch' }}</span>
+          <span class="text-text-700 dark:text-text-200">Frage {{ index + 1 }}: {{ userAnswers[index] === question.correct_answer ? 'Richtig' : 'Falsch' }}</span>
         </li>
       </ul>
     </div>
@@ -85,23 +83,3 @@ function fireConfetti() {
   }());
 }
 </script>
-
-<style scoped>
-.animate-bounce {
-  animation: bounce 1s infinite;
-}
-
-@keyframes bounce {
-
-  0%,
-  100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-  }
-
-  50% {
-    transform: translateY(0);
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  }
-}
-</style>

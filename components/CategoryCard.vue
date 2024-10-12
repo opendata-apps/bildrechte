@@ -35,7 +35,7 @@ const difficultyProps = computed(() => {
     color: 'text-text-500 dark:text-text-300',
     bgColor: 'bg-background-200 dark:bg-dark-accent',
   };
-  return difficultyMapping[props.category.difficulty.toLowerCase()] || defaultProps;
+  return difficultyMapping[props.category.difficulty.toLowerCase() as keyof typeof difficultyMapping] || defaultProps;
 });
 </script>
 
