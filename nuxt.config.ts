@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   site: {
-    url: 'https://bildrechte-quiz.com',
     name: 'Bildrechte Quiz',
     description: 'Lerne über Bildrechte, Urheberrechtsgesetze und ethische Überlegungen in der Fotografie mit unserem interaktiven Quiz.',
     defaultLocale: 'de',
